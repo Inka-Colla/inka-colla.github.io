@@ -7,14 +7,14 @@ var mensajes = "";
 var curIndex = 0;
 var fuente;
 
-function preload() {
-  fuente = loadFont('./Fonts/COURIERTXT.ttf');
-}
+//function preload() {
+//  fuente = loadFont('./Fonts/COURIERTXT.ttf');
+//}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(10);
-  textFont(fuente);
+  textFont('Courier');
   textAlign(CENTER, CENTER);
 }
 
